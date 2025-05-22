@@ -4,10 +4,18 @@
 /* @custom-variant dark (&:where(.dark, .dark *)); */
 
 @theme {
+  --font-pretendard: 'Pretendard Variable', Pretendard, sans-serif;
+
   --color-like: red;
   --color-lion: green;
+  --color-likelion-black: #303033;
+  --color-likelion-silver: #f5f5f5;
+  --color-likelion-red: #b02c20;
+  --color-likelion-green: #58dc76;
 
   --building: url(../src/assets/images/building.avif);
+
+  --autofit: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 @layer components {
