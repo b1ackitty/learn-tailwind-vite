@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/font/suit/SUIT-Variable.css" />
     <script type="module" src="/src/main.js"></script>
   </head>
-  <body>
+  <body class="text-likelion-black font-pretendard">
     <div class="sr-only">
       <a href="/index.html">메인 페이지 이동</a>
       <br />
@@ -76,8 +76,8 @@
       </nav>
     </div>
     <!-- 768px 이상일 때 헤더 -->
-    <div class="hidden md:block">
-      <header>
+    <div class="hidden md:flex md:max-w-7xl md:flex-col-reverse md:gap-5 md:my-5 md:mx-auto">
+      <header class="mx-5 flex justify-between items-center">
         <a href="/">
           <svg xmlns="http://www.w3.org/2000/svg" width="134" height="22" viewBox="0 0 134 22" fill="none">
             <title>크림</title>
@@ -93,11 +93,11 @@
             <path d="M0 21.7118L6.51097 0.288574H13.232L10.9216 7.8497H15.5423L22.4734 0.288574H28.9843L28.1442 3.43904L21.0031 10.5801L23.5235 18.3513L22.4734 21.7118H17.0125L14.7022 13.7306H9.03135L6.93103 21.7118H0Z" fill="#303033" />
           </svg>
         </a>
-        <div>
-          <a href="/">HOME</a>
-          <a href="/">STYLE</a>
-          <a href="/">SHOP</a>
-          <button aria-label="검색">
+        <div class="text-[21px] leading-[1.4] flex gap-7 items-center">
+          <a class="hover:font-bold" href="/">HOME</a>
+          <a class="hover:font-bold" href="/">STYLE</a>
+          <a class="hover:font-bold" href="/">SHOP</a>
+          <button class="cursor-pointer" aria-label="검색">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
               <g clip-path="url(#clip0_4020_235)">
                 <path
@@ -114,8 +114,8 @@
           </button>
         </div>
       </header>
-      <nav>
-        <ul>
+      <nav class="mx-5 text-xs leading-[1.6]">
+        <ul class="flex justify-end gap-5">
           <li><a href="/">고객센터</a></li>
           <li><a href="/">마이페이지</a></li>
           <li><a href="/">관심</a></li>
